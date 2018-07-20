@@ -1,0 +1,50 @@
+div.top{
+    width: 700px;
+    height: 70px;
+    background-color: grey;
+    padding: 2px;
+}
+div.mid{
+    width: 700px;
+    min-height: 90px;
+    background-color: lightblue;
+}
+div.bot{
+    width: 700px;
+    min-height: 70px;
+    background-color: red;
+}
+@media only screen and  (max-width:480px){
+    .sm1{
+        width:100%;
+    }
+    .med{
+        display: none;
+    }
+    .lg{
+        display:none;
+    }
+}
+@media only screen and (min-width:481px){
+    .med{
+        width:50%;
+    }
+    .sm1{
+        display:none;
+    }
+    .lg{
+        display:none;
+    }
+}
+@media only screen and (min-width:1024px){
+    
+    .med{
+        display:none;
+    }
+    .sm1{
+        display:none;
+    }
+    .lg{
+        display: block;
+    }
+}
